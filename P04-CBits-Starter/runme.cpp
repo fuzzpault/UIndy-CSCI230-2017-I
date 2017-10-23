@@ -28,7 +28,7 @@ int main(){
   // Mult by 2
   assert(multBy2(3,1) == 6);
   assert(multBy2(4,3) == 32);
-  assert(multBy2(5,4) == 40);
+  assert(multBy2(5,4) == 80);
 
   // Bit set checks
   long set = 0x0;

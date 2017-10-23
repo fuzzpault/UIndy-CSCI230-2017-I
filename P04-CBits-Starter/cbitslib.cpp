@@ -46,30 +46,30 @@ bool isNegative(int a){
 
 unsigned short multBy2(int a, unsigned char amt){  // Returns a * 2^amt
   // TODO Fix me
-  return 0;
+  return a;
 }
 
 long insert(long data, unsigned char value){  // Treat data as a set and insert value into it
   // TODO Fix me
-  return 0;
+  return data;
 }
 
 bool contains(long data, unsigned char value){
   // TODO Fix me
-  return true;
+  return data;
 }
 
 long remove(long data, unsigned char value){
   // TODO Fix me
-  return 0;
+  return data ;
 }
 
 long join(long data1, long data2){  // Should be called union, but that is a keyword
   // TODO Fix me
-  return 0;
+  return data1;
 }
 
-long subtract(long data1, long data2){
+long subtract(long data1, long data2){ // remove all the values from data1 which are in data2
   // TODO Fix me
-  return 0;
+  return data1;
 }
