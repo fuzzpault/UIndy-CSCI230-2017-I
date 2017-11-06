@@ -2,9 +2,10 @@
   Name: Paul Talaga
   Date: Oct 30, 2017
   Desc: Program to demonstrate the use of pthreads
-        This reads and writes to a shared variable (without any semaphore or lock)
-	to show how, using threads, an incorrect result could be observed.  You
-	may need to run this multiple times to see an incorrect temp value.
+        This reads and writes to a shared variable using a lock so no two threads
+	try to update the shared variable at the same time.
+	This version does the bulk of the work in each thread, then only updates
+	the shared variable once before finishing.
 
   To compile this, do: g++ -lpthread thread1.cpp
 */

@@ -37,7 +37,7 @@ void* doStuff(void* arg){
 }
 
 
-const int NUM_THREADS = 3;
+const int NUM_THREADS = 100;
 int main(){
 
   temp = 0;
