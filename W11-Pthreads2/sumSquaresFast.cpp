@@ -3,7 +3,7 @@
   Date: Nov 7, 2017
   Desc: Program to demonstrate the use of pthreads
         This finds the sum of all the squares from 0 to a 'large number', using 
-	multiple threads.
+	multiple threads. More here.
 
   To compile this, do: g++ -lpthread thread1.cpp
 */
