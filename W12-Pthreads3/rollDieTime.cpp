@@ -1,13 +1,10 @@
-/*                                                                                                                     
+/*                                                                                                                    
   Name: Paul Talaga
-  Date: Oct 30, 2017
-  Desc: Program to demonstrate the use of pthreads
-        This reads and writes to a shared variable with a lock around the critical 
-	section so no two threads update the variable at the same time.  This is 
-	SLOW as only one thread can execute their loop at a time, but at least it is
-	correct.  Bad threading implementation!
+  Date: Nov 16, 2017
+  Desc: Program to simulate as many rolls of 2 die as possible using multiple threads
+        running for a specified number of seconds.
 
-  To compile this, do: g++ -lpthread thread1.cpp
+  To compile this, do: g++ rollDieTime.cpp -lpthread
 */
 
 #include <iostream>
